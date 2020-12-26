@@ -1,0 +1,29 @@
+.navbar {
+  background-color: rgba(238, 84, 53, 0.8);
+  width: 100%;
+  padding: 0px 90px;
+  position: absolute;
+  z-index: 2;
+  .navbar-brand {
+    margin-right: 0;
+    text-align: center;
+    img {
+      height: 125px;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+        &:hover {
+            color: #000000;
+        }
+        &.active {
+          color: #000000;
+      }
+      }
+    }
+  }
+}

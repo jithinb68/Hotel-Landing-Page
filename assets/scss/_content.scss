@@ -1,0 +1,115 @@
+.hotel-carousel {
+    position: relative;
+    margin-bottom: 250px;
+    .introduction {
+      position: absolute;
+      padding: 2rem;
+      background-color: rgba(17,66,25,0.5);
+      width: 50%;
+      top: 0;
+      z-index: 1000;
+      left:50%;
+      top:50%;
+      transform: translate(-50%, 130%);
+    }
+}
+
+.content-wrapper {
+    .cover-wrapper {
+        position: relative;
+        margin-bottom: 80px;
+        .cover-image {
+            margin-bottom: 80px;
+            .cover-text {
+                position: absolute;
+                background-color: #235579;
+                padding: 250px 70px 20px 70px;
+                border-radius: 0px 0px 30px 30px;
+                left: 5%;
+                top: 0;
+              }
+        }
+        .cover-details {
+            .room-types {
+                background-color:  rgba(0,0,0, 0.25);
+                padding: 50px 80px;
+                border-radius: 50px;
+                margin: 0px 80px;
+                .item {
+                    margin-bottom: 60px;
+                }
+                .mdi {
+                    font-size: 30px;
+                }
+            }
+            .room-description {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                p {
+                    font-size: 16px;
+                }
+                ul {
+                    padding-left: 20px
+                }
+            }
+            .facilities-wrapper {
+                .facilities-desc {
+                  background-color:  rgba(0,0,0, 0.25);
+                  padding: 50px 80px;
+                  border-radius: 50px;
+                  margin: 0px 80px;
+                  text-align: center;
+                  .item {
+                    margin-bottom: 30px;
+                  }
+                  img {
+                    width: 140px;
+                  }
+                }
+            }
+            .explore-wrapper {
+                margin: 0px 80px;
+                .item {
+                    margin-bottom: 100px;
+                }
+                .place-desc {
+                    padding-top: 20px;
+                    padding: 30px
+                }
+            }
+        } 
+    }
+}
+
+.footer {
+    border-top: 1px solid #ffffff;
+    padding: 30px 100px;
+    p {
+        font-size: 20px;
+    }
+    .mdi {
+        font-size: 20px;
+    }
+}
+
+
+.card {
+    background-color: inherit;
+    border: 0;
+    .card-body {
+        padding: 0;
+    }
+}
+
+
+.text-italian {
+    font-family: $type2;
+}
+
+.booking-modal {
+    .modal-content {
+        background-color: rgba(238, 84, 53, 0.8);
+        border: rgba(238, 84, 53, 0.8);
+    }
+}

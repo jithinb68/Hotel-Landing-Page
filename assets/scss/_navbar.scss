@@ -1,14 +1,20 @@
 .navbar {
   background-color: rgba(238, 84, 53, 0.8);
   width: 100%;
-  padding: 0px 90px;
+  padding: 0px 10px;
+  @media ( min-width: 800px ) {
+    padding: 0px 90px;
+  }
   position: absolute;
   z-index: 2;
   .navbar-brand {
     margin-right: 0;
     text-align: center;
     img {
-      height: 125px;
+      height: 55px;
+      @media ( min-width: 800px ) {
+        height: 125px;
+      }
     }
   }
   .navbar-nav {

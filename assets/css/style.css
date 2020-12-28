@@ -9690,41 +9690,41 @@ a.text-dark:hover, a.text-dark:focus {
 /*-------------------------------------------------------------------*/
 /* === Core Styles === */
 @font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Light.eot");
-  src: url("../fonts/Montserrat/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Light.eot");
+  src: url("../fonts/Nunito/Nunito-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Bold.eot");
-  src: url("../fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Bold.eot");
+  src: url("../fonts/Nunito/Nunito-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Medium.eot");
-  src: url("../fonts/Montserrat/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Medium.eot");
+  src: url("../fonts/Nunito/Nunito-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Regular.eot");
-  src: url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Regular.eot");
+  src: url("../fonts/Nunito/Nunito-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Black.eot");
-  src: url("../fonts/Montserrat/Montserrat-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Black.eot");
+  src: url("../fonts/Nunito/Nunito-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -9757,7 +9757,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Typography */
 body {
   font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: initial;
   line-height: normal;
   -webkit-font-smoothing: antialiased;
@@ -9769,7 +9769,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0.5rem;
   line-height: 1.8;
 }
@@ -9781,7 +9781,7 @@ p {
 }
 
 h1, .h1 {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 @media (max-width: 400px) {
@@ -9791,7 +9791,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 45px;
+  font-size: 35px;
 }
 
 @media (max-width: 400px) {
@@ -9801,7 +9801,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media (max-width: 400px) {
@@ -9811,7 +9811,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 @media (max-width: 400px) {
@@ -9821,7 +9821,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 400px) {
@@ -9831,7 +9831,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media (max-width: 400px) {
@@ -10028,6 +10028,12 @@ body {
 
 @media (min-width: 992px) {
   .logo-title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-title {
     font-size: 30px;
   }
 }
@@ -10051,18 +10057,24 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .hotel-carousel .introduction {
     margin: 0;
     width: 50%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 56%;
     transform: translate(-50%, 130%);
   }
 }
 
-@media (min-width: 1400px) {
+@media (mIN-width: 1400px) {
+  .hotel-carousel .introduction {
+    top: 61%;
+  }
+}
+
+@media (min-width: 1200px) {
   .hotel-carousel {
     margin-bottom: 250px;
   }
@@ -10216,7 +10228,7 @@ body {
 }
 
 .text-italian {
-  font-family: "Italianno", sans-serif;
+  font-family: "Great Vibes", cursive;
 }
 
 .booking-modal .modal-content {
@@ -10255,8 +10267,14 @@ body {
 
 .navbar .navbar-nav .nav-item .nav-link {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 22px;
+  }
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {

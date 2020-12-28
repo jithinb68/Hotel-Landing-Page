@@ -21,7 +21,10 @@
     .nav-item {
       .nav-link {
         color: #ffffff;
-        font-size: 22px;
+        font-size: 18px;
+        @media ( min-width: 1200px ) {
+          font-size: 22px;
+        }
         font-weight: bold;
         &:hover {
             color: #000000;

@@ -2,14 +2,19 @@
   background-color: rgba(238, 84, 53, 0.8);
   width: 100%;
   padding: 0px 10px;
-  @media ( min-width: 800px ) {
-    padding: 0px 90px;
-  }
   position: absolute;
   z-index: 2;
-  .navbar-brand {
-    margin-right: 0;
-    text-align: center;
+  .navbar-toggler-icon {
+    color: #ffffff;
+  }
+  .navbar-brand-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    @media ( min-width: 992px ) {
+      flex-direction: column;
+      width: auto;
+    }
     img {
       height: 55px;
       @media ( min-width: 800px ) {
@@ -21,7 +26,7 @@
     .nav-item {
       .nav-link {
         color: #ffffff;
-        font-size: 18px;
+        font-size: 16px;
         @media ( min-width: 1200px ) {
           font-size: 22px;
         }

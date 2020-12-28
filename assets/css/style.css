@@ -10244,30 +10244,36 @@ body {
   z-index: 2;
 }
 
-@media (min-width: 800px) {
-  .navbar {
-    padding: 0px 90px;
+.navbar .navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.navbar .navbar-brand-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand-wrapper {
+    flex-direction: column;
+    width: auto;
   }
 }
 
-.navbar .navbar-brand {
-  margin-right: 0;
-  text-align: center;
-}
-
-.navbar .navbar-brand img {
+.navbar .navbar-brand-wrapper img {
   height: 55px;
 }
 
 @media (min-width: 800px) {
-  .navbar .navbar-brand img {
+  .navbar .navbar-brand-wrapper img {
     height: 125px;
   }
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 

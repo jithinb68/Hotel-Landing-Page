@@ -123,33 +123,3 @@
         } 
     }
 }
-
-.footer {
-    border-top: 1px solid #ffffff;
-    padding: 30px 100px;
-    @media ( max-width: 768px ) {
-        padding: 30px;
-    }
-    p {
-        font-size: 20px;
-    }
-    .mdi {
-        font-size: 20px;
-    }
-    .social-media-cons {
-        img {
-            width: 35px;
-        }
-    }
-}
-
-.text-italian {
-    font-family: $type2;
-}
-
-.booking-modal {
-    .modal-content {
-        background-color: rgba(238, 84, 53, 0.8);
-        border: rgba(238, 84, 53, 0.8);
-    }
-}

@@ -9692,7 +9692,8 @@ a.text-dark:hover, a.text-dark:focus {
 @font-face {
   font-family: 'Nunito';
   src: url("../fonts/Nunito/Nunito-Light.eot");
-  src: url("../fonts/Nunito/Nunito-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Light.ttf") format("truetype");
+  src: url("../fonts/Nunito/Nunito-Light.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Nunito/Nunito-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -9700,23 +9701,17 @@ a.text-dark:hover, a.text-dark:focus {
 @font-face {
   font-family: 'Nunito';
   src: url("../fonts/Nunito/Nunito-Bold.eot");
-  src: url("../fonts/Nunito/Nunito-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+  src: url("../fonts/Nunito/Nunito-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url("../fonts/Nunito/Nunito-Medium.eot");
-  src: url("../fonts/Nunito/Nunito-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nunito';
   src: url("../fonts/Nunito/Nunito-Regular.eot");
-  src: url("../fonts/Nunito/Nunito-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+  src: url("../fonts/Nunito/Nunito-Regular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -9724,8 +9719,16 @@ a.text-dark:hover, a.text-dark:focus {
 @font-face {
   font-family: 'Nunito';
   src: url("../fonts/Nunito/Nunito-Black.eot");
-  src: url("../fonts/Nunito/Nunito-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito/Nunito-Black.ttf") format("truetype");
+  src: url("../fonts/Nunito/Nunito-Black.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Nunito/Nunito-Black.ttf") format("truetype");
   font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url("../fonts/Great_Vibes/GreatVibes-Regular.ttf");
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -10225,6 +10228,10 @@ body {
 
 .footer .mdi {
   font-size: 20px;
+}
+
+.footer .social-media-cons img {
+  width: 35px;
 }
 
 .text-italian {

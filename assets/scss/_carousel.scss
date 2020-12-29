@@ -18,6 +18,11 @@
                         font-size: 1.875rem;
                         font-weight: bold;
                         line-height: 2;
+                        @media ( max-width: 765px ) {
+                            width: 30px;
+                            height: 30px;
+                            font-size: 1rem;
+                        }
                     }
                 }
             }
@@ -36,6 +41,11 @@
             .owl-dot span {
                 width: 14px;
                 height: 14px;
+                @media ( max-width: 765px ) {
+                    width: 10px;
+                    height: 10px;
+                    font-size: 1rem;
+                }
             }
         }
     }

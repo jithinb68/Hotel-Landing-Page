@@ -10193,7 +10193,7 @@ body {
   background-color: rgba(238, 84, 53, 0.8);
   width: 100%;
   padding: 0px 10px;
-  position: absolute;
+  position: fixed;
   z-index: 2;
 }
 
@@ -10528,6 +10528,15 @@ body {
   line-height: 2;
 }
 
+@media (max-width: 765px) {
+  .owl-carousel.full-width .owl-nav .owl-prev i:before,
+  .owl-carousel.full-width .owl-nav .owl-next i:before {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+}
+
 .owl-carousel.full-width .owl-nav .owl-prev {
   float: left;
 }
@@ -10546,6 +10555,14 @@ body {
 .owl-carousel.full-width .owl-dots .owl-dot span {
   width: 14px;
   height: 14px;
+}
+
+@media (max-width: 765px) {
+  .owl-carousel.full-width .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    font-size: 1rem;
+  }
 }
 
 .booking-modal .modal-content {

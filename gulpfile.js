@@ -54,7 +54,9 @@ gulp.task('buildBaseVendorScripts', function () {
 gulp.task('copyAddonsScripts', function () {
     var aScript1 = gulp.src(['./node_modules/owl.carousel/dist/owl.carousel.min.js'])
         .pipe(gulp.dest('./assets/vendors/owl.carousel/dist'));
-    return merge(aScript1);
+    var aScript2 = gulp.src(['node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js'])
+        .pipe(gulp.dest('./assets/vendors/bootstrap-datepicker'));
+    return merge(aScript1, aScript2);
 
 });
 
@@ -68,7 +70,9 @@ gulp.task('copyAddonsStyles', function () {
         .pipe(gulp.dest('./assets/vendors/mdi/css'));
     var aStyle4 = gulp.src(['./node_modules/@mdi/font/fonts/*'])
         .pipe(gulp.dest('./assets/vendors/mdi/fonts'));
-    return merge(aStyle1, aStyle2, aStyle3, aStyle4);
+    var aStyle5 = gulp.src(['node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css'])
+        .pipe(gulp.dest('./assets/vendors/bootstrap-datepicker'));
+    return merge(aStyle1, aStyle2, aStyle3, aStyle4, aStyle5);
 });
 
 /*sequence for building vendor scripts and styles*/

@@ -1,11 +1,25 @@
 .form-control {
+  background-color: #f6f7fb;
+  padding: 0 1rem;
+  border: none;
+  font-size: 14px;
+  &:focus {
     background-color: #f6f7fb;
+    border: 1px solid #ced4da;  
+    box-shadow: none;
     border: none;
-    font-size: 14px;
-    &:focus {
-      background-color: #f6f7fb;
-      border: 1px solid #ced4da;  
-      box-shadow: none;
-      border: none;
-    }
   }
+  
+}
+
+.input-group-text {
+  padding: 0px 14px;
+}
+
+@media (min-width: 992px) {
+  .modal-lg, .modal-xl {
+    max-width: 70%;
+  }
+}
+
+

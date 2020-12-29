@@ -1,18 +1,29 @@
 .hotel-carousel {
     position: relative;
-    margin-bottom: 250px;
     .introduction {
-      position: absolute;
       padding: 2rem;
+      background-color: rgba(17,66,25,0.5);
+      z-index: 1000; 
+      width: 90%;
+      margin: 80px auto;
       @media ( max-width: 400px ) {
+        margin: 40px auto;
         padding: 1rem;
       }
-      background-color: rgba(17,66,25,0.5);
-      width: 50%;
-      z-index: 1000;
-      left:50%;
-      top:50%;
-      transform: translate(-50%, 130%);
+      @media ( min-width: 1200px ) {
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        left:50%;
+        top: 56%;
+        transform: translate(-50%, 130%);
+      }
+      @media ( mIN-width: 1400px ) {
+        top: 61%;
+      }
+    }
+    @media ( min-width: 1200px ) {
+        margin-bottom: 250px;
     }
 }
 
@@ -110,30 +121,5 @@
                 }
             }
         } 
-    }
-}
-
-.footer {
-    border-top: 1px solid #ffffff;
-    padding: 30px 100px;
-    @media ( max-width: 768px ) {
-        padding: 30px;
-    }
-    p {
-        font-size: 20px;
-    }
-    .mdi {
-        font-size: 20px;
-    }
-}
-
-.text-italian {
-    font-family: $type2;
-}
-
-.booking-modal {
-    .modal-content {
-        background-color: rgba(238, 84, 53, 0.8);
-        border: rgba(238, 84, 53, 0.8);
     }
 }

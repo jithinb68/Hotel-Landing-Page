@@ -21,7 +21,7 @@ $Body = '<html><head>
         </head><body>';
 $Body .= '<table rules="all" style="border: 1px solid #d8c8c3;width: 95%;" cellpadding="10">';
 $Body .= "<tr><td style='width: 200px;'><img src='https://madhavainn.in/assets/images/logo.svg' /></td><td style='text-align: center;font-size: 25px;text-transform: uppercase;color: #e75b44;'>Booking Information</td></tr>";
-$Body .= "<tr><td style='background: #e86c4d;color: #fff;text-align: right;    width: 200px;'><strong>First Name</strong></td><td style='font-size: 14px;text-align: justify;color: #212121;'>$firstname</td></tr>";
+$Body .= "<tr><td style='background: #e86c4d;color: #fff;text-align: right;    width: 200px;'><strong>First Name</strong></td><td style='font-size: 14px;text-align: justify;color: #212121;'>$firstName</td></tr>";
 $Body .= "<tr><td style='background: #e86c4d;color: #fff;text-align: right;    width: 200px;'><strong>Last Name</strong></td><td style='font-size: 14px;text-align: justify;color: #212121;'>$lastName</td></tr>";
 $Body .= "<tr><td style='background: #e86c4d;color: #fff;text-align: right;    width: 200px;'><strong>Email</strong></td><td style='font-size: 14px;text-align: justify;color: #212121;'>$email</td></tr>";
 $Body .= "<tr><td style='background: #e86c4d;color: #fff;text-align: right;    width: 200px;'><strong>Phone Number</strong></td><td style='font-size: 14px;text-align: justify;color: #212121;'>$phone</td></tr>";

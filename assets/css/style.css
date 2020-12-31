@@ -10023,6 +10023,14 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
+.form-group small {
+  visibility: hidden;
+}
+
+.form-group.error small {
+  visibility: visible;
+}
+
 .hotel-carousel {
   position: relative;
 }

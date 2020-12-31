@@ -23,8 +23,14 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     checkInputs(); 
     if (!firstNameFail && !lastNameFail & !emailFail && !phoneFail && !doaFail && !doaFail) {
-        console.log('ALL GOOD');
         submitForm();
+        firstName.value = '';
+        lastName.value = '';
+        email.value = '';
+        phone.value = '';
+        doa.value = '';
+        dod.value = '';
+        $('#bookingModal').modal('hide');
     }
 }) 
 
@@ -93,14 +99,26 @@ function setErrorFor(input, message) {
     }
     const small = formControl.querySelector('small');
     small.innerText =  message;
-    formControl.className = 'form-group  row error';
+    formControl.className = 'form-group row error';
 }
 
 function setSuccessFor(input) {
-    const formControl = input.parentElement.parentElement;
-    formControl.className = 'form-group  row success';
+    if(input == doa || input == dod) {
+        var formControl = input.parentElement.parentElement.parentElement;
+    } else {
+        var formControl = input.parentElement.parentElement;
+    }
+    formControl.className = 'form-group row success';
 }
 
+document.getElementById('closeModal').addEventListener('click', () => {
+    firstName.value = '';
+    lastName.value = '';
+    email.value = '';
+    phone.value = '';
+    doa.value = '';
+    dod.value = '';
+})
 
 function submitForm(){
     var firstName = $("#firstName").val();

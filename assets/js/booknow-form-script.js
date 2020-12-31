@@ -72,7 +72,10 @@ function checkInputs() {
     if(phoneValue === '') {
         phoneFail = true;
         setErrorFor(phone, 'Phone number cannot be blank');
-    }  else {
+    }  else if(isNaN(phoneValue)){
+        phoneFail = true;
+        setErrorFor(phone, 'Phone number is not valid');
+    } else {
         phoneFail = false;
         setSuccessFor(phone);
     }

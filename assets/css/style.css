@@ -9897,6 +9897,10 @@ h6, .h6 {
   font-weight: 500;
 }
 
+.text-italian {
+  font-family: "Great Vibes", cursive;
+}
+
 .btn-book-now {
   border: 2px solid #ffffff;
   font-weight: bold;
@@ -10189,6 +10193,10 @@ body {
   padding: 30px;
 }
 
+.content-wrapper .cover-wrapper .about-desc {
+  margin: 0px 200px;
+}
+
 .navbar {
   background-color: rgba(238, 84, 53, 0.8);
   width: 100%;
@@ -10220,7 +10228,7 @@ body {
 
 @media (min-width: 800px) {
   .navbar .navbar-brand-wrapper img {
-    height: 125px;
+    height: 90px;
   }
 }
 
@@ -10257,12 +10265,6 @@ body {
 @media (min-width: 992px) {
   .logo-title {
     font-size: 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .logo-title {
-    font-size: 30px;
   }
 }
 
@@ -10506,7 +10508,7 @@ body {
 
 .owl-carousel.full-width .owl-nav {
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: 100%;
   margin-top: 0;
 }

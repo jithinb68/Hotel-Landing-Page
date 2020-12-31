@@ -18,7 +18,7 @@
     img {
       height: 55px;
       @media ( min-width: 800px ) {
-        height: 125px;
+        height: 90px;
       }
     }
   }
@@ -48,9 +48,6 @@
       font-size: 20px
   }
   @media ( min-width: 992px ) {
-      font-size: 20px
-}
-@media ( min-width: 1200px ) {
-      font-size: 30px
+      font-size: 20px;
   }
 }

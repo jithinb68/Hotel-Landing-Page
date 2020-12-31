@@ -10202,7 +10202,13 @@ body {
 }
 
 .content-wrapper .cover-wrapper .about-desc {
-  margin: 0px 200px;
+  margin: 0px 20px;
+}
+
+@media (min-width: 1000px) {
+  .content-wrapper .cover-wrapper .about-desc {
+    margin: 0px 200px;
+  }
 }
 
 .navbar {

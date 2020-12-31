@@ -122,7 +122,10 @@
             }
         } 
         .about-desc {
-            margin: 0px 200px;
+            margin: 0px 20px;
+            @media ( min-width: 1000px ) {
+                margin: 0px 200px;
+            }
         }
     }
 }

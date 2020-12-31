@@ -61,7 +61,10 @@ function checkInputs() {
     if(emailValue === '') {
         emailFail = true;
         setErrorFor(email, 'Email cannot be blank');
-    }  else {
+    }  else if(!isEmail(emailValue)){
+        emailFail = true;
+        setErrorFor(email, 'Email format not correct');
+    } else {
         emailFail = false;
         setSuccessFor(email);
     }
@@ -109,6 +112,12 @@ function setSuccessFor(input) {
         var formControl = input.parentElement.parentElement;
     }
     formControl.className = 'form-group row success';
+}
+
+function isEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    console.log(re.test(String(email).toLowerCase()));
+    return re.test(String(email).toLowerCase());
 }
 
 document.getElementById('closeModal').addEventListener('click', () => {

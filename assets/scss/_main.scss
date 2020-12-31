@@ -92,3 +92,15 @@ body {
 		}
 	}
 }
+
+
+.form-group {
+	small {
+		visibility: hidden;
+	}
+	&.error {
+		small {
+			visibility: visible;
+		}
+	}
+}

@@ -40,7 +40,7 @@ function checkInputs() {
     const emailValue = email.value.trim();
     const phoneValue = phone.value.trim();
     const doaValue = doa.value.trim();
-    const dodValue = doa.value.trim();
+    const dodValue = dod.value.trim();
 
     if(firstNameValue === '') {
         firstNameFail = true;
@@ -116,7 +116,6 @@ function setSuccessFor(input) {
 
 function isEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    console.log(re.test(String(email).toLowerCase()));
     return re.test(String(email).toLowerCase());
 }
 

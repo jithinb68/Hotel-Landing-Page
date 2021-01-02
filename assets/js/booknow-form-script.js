@@ -138,8 +138,8 @@ function submitForm(){
     var phone = $("#phone").val();
     var noOfAdults = $("#noOfAdults").val();
 	var noOfKids = $("#noOfKids").val();
-    var DOA = $("#DOA").val();
-    var DOD = $("#DOD").val();
+    var DOA = $("#doa").val();
+    var DOD = $("#dod").val();
     $.ajax({
         type: "POST",
         url: "../assets/php/booknow-form-process.php",

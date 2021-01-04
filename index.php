@@ -47,7 +47,7 @@
                     <a class="nav-link" href="#about-section">ABOUT US</a>
                 </li>
                 <li class="nav-item btn-contact-us ml-lg-4 my-3 my-lg-0">
-                    <button class="btn btn-book-now d-none d-md-block font-weight-medium" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
+                    <button class="btn btn-book-now font-weight-medium" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
                 </li>
                 </ul>
             </div>
@@ -57,14 +57,15 @@
     <div class="content-wrapper">
         <div id="home-section" class="hotel-carousel">
             <div id="owl-demo" class="owl-carousel owl-theme full-width">
-                <div class="item"><img src="assets/images/carousel1.jpg"></div>
-                <div class="item"><img src="assets/images/carousel2.jpg"></div>
-                <div class="item"><img src="assets/images/carousel3.jpg"></div>
-                <div class="item"><img src="assets/images/carousel4.jpg"></div>
-                <div class="item"><img src="assets/images/carousel5.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 1.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 2.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 3.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 4.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 5.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 6.jpg"></div>
             </div>
             <div class="introduction">
-                <h1 class="title text-italian text-center font-family-$type2">Best Hotel In Pollachi</h1>
+                <h1 class="title text-italian text-center">Best Hotel In Pollachi</h1>
                 <h4 class="description text-center">Nestled in the heart of Pollachi, Madhava Inn offers spacious suites, plush furnishings and modern amenities, making it the perfect destination for business and leisure travellers.</h4>
             </div>
         </div>
@@ -79,7 +80,12 @@
                 <div class="room-types">
                     <div class="row item">
                         <div class="col-12 col-md-6">
-                            <img src="assets/images/roomtype1.jpg" class="img-fluid">
+                            <div id="room-suite" class="owl-carousel owl-theme full-width">
+                                <img src="assets/images/roomtype1.jpg" class="img-fluid">
+                                <div class="item"><img src="assets/images/suite 1.jpg"></div>
+                                <div class="item"><img src="assets/images/suite 2.jpg"></div>
+
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 room-description">
                             <h4>A/C Suite</h4>
@@ -104,7 +110,12 @@
                     </div>
                     <div class="row item">
                         <div class="col-12 col-md-6">
-                            <img src="assets/images/roomtype3.jpg" class="img-fluid">
+                            <div id="room-executive" class="owl-carousel owl-theme full-width">
+                                <img src="assets/images/roomtype3.jpg" class="img-fluid">
+                                <div class="item"><img src="assets/images/executive 1.jpg"></div>
+                                <div class="item"><img src="assets/images/executive 2.jpg"></div>
+
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 room-description">
                             <h4>A/C Executive</h4>
@@ -129,7 +140,11 @@
                     </div>
                     <div class="row item">
                         <div class="col-12 col-md-6">
-                            <img src="assets/images/roomtype2.jpg" class="img-fluid">
+                            <div id="room-deluxe" class="owl-carousel owl-theme full-width">
+                                <img src="assets/images/roomtype2.jpg" class="img-fluid">
+                                <div class="item"><img src="assets/images/delux 1.jpg"></div>
+                                <div class="item"><img src="assets/images/delux 2.webp"></div>
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 room-description">
                             <h4>A/C Deluxe</h4>
@@ -338,132 +353,136 @@
                     <h2>ABOUT US</h2>
                 </div>
             </div> 
-            <div class="row cover-details">
-                <div class="col-9 text-center mx-auto">
+            <div class="text-center about-desc">
                     <h4>Founded in 2018, Hotel Madhava Inn aspires to satisfy our guests by guaranteeing
                         warmest hospitality and outstanding facilities. We provide everything to make your
                         business trips and holiday stay memorable. Located in the heart of the city, Madhava
                         Inn is considered as one of the best places to stay since the hospitals, shopping areas
                         and travel facilities are within easy reach.</h4>
-                </div>
             </div>
         </div>
-        <!-- Modal for Contact - us Button -->
+        <!-- Modal for Book-now button-->
         <div class="modal booking-modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="bookingModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <h4 class="modal-title" id="exampleModalLabel">Book a room</h4>
-                </div>
-                <form role="form" method="post" id="booknowform" name="contact-form" data-toggle="validator">
-                <div class="modal-body">
-                    <p>If your dates are at all flexible, please let us know. We book up quickly, especially on summer weekends, but would love to find a way to host you.</p>
-                           <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">First Name</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="First Name" class="form-control" id="firstName" />
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">Last Name</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="Last Name" class="form-control" id="lastName" />
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">Email</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="Email" class="form-control" id="email"/>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">Phone</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="Phone" class="form-control" id="phone"/>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">Date of arrival</label>
-                                <div class="col-sm-8">
-                                    <div id="datepicker-arrival" class="input-group date datepicker">
-                                        <input type="text" class="form-control" id="DOA">
-                                        <span class="input-group-addon input-group-append border-left">
-                                          <span class="mdi mdi-calendar input-group-text"></span>
-                                        </span>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Book a room</h4>
+                    </div>
+                    <form id="form">
+                        <div class="modal-body">
+                            <p>If your dates are at all flexible, please let us know. We book up quickly, especially on summer weekends, but would love to find a way to host you.</p>
+                            <div class="row">
+                                <div class="col-12" id="errorElement"></div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label" for="firstName">First Name</label>
+                                        <div class="col-sm-8">
+                                            <input id="firstName" name="firstName" placeholder="First Name" class="form-control" />
+                                            <small>Error message</small>
+                                        </div> 
                                     </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">Date of departure</label>
-                                <div class="col-sm-8">
-                                    <div id="datepicker-departure" class="input-group date datepicker">
-                                        <input type="text" class="form-control" id="DOD">
-                                        <span class="input-group-addon input-group-append border-left">
-                                          <span class="mdi mdi-calendar input-group-text"></span>
-                                        </span>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label" for="lastName">Last Name</label>
+                                        <div class="col-sm-8">
+                                            <input id="lastName" name="lastName" placeholder="Last Name" class="form-control" />
+                                            <small>Error message</small>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label" for="email">Email</label>
+                                        <div class="col-sm-8">
+                                            <input id="email" name="email" placeholder="Email" class="form-control" />
+                                            <small>Error message</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label" for="phone">Phone</label>
+                                        <div class="col-sm-8">
+                                            <input id="phone" name="phone" placeholder="Phone number" class="form-control" />
+                                            <small>Error message</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">Date of arrival</label>
+                                        <div class="col-sm-8">
+                                            <div id="datepicker-arrival" class="input-group date datepicker">
+                                                <input id="doa" name="doa" class="form-control">
+                                                <span class="input-group-addon input-group-append border-left">
+                                                    <span class="mdi mdi-calendar input-group-text"></span>
+                                                </span>
+                                            </div>
+                                            <small>Error message</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">Date of departure</label>
+                                        <div class="col-sm-8">
+                                            <div id="datepicker-departure" class="input-group date datepicker">
+                                                <input id="dod" name="dod" class="form-control">
+                                                <span class="input-group-addon input-group-append border-left">
+                                                    <span class="mdi mdi-calendar input-group-text"></span>
+                                                </span>
+                                            </div>
+                                            <small>Error message</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">No of Adults</label>
+                                        <div class="col-sm-8">
+                                            <select class="form-control" id="noOfAdults">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 col-form-label">No of Kids</label>
+                                        <div class="col-sm-8">
+                                            <select class="form-control" id="noOfKids">
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">No of Adults</label>
-                                <div class="col-sm-8">
-                                    <select class="form-control" id="noOfAdults">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    </select>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group row">
-                                <label class="col-sm-4 col-form-label">No of Kids</label>
-                                <div class="col-sm-8">
-                                    <select class="form-control" id="noOfKids">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </div>
-                                </div>
-                            </div>
+                        <div class="modal-footer">
+                            <button id="closeModal" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-success book-a-room">Book</button>
                         </div>
-                    
+                    </form>
                 </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success book-a-room">Book</button>
-                </div>
-                </form>
-            </div>
             </div>
         </div>
         <footer>
-            <div class="footer row">
-                <div class="d-flex justify-content-between align-items-center w-100">
+            <div class="footer">
+                <div class="d-md-flex justify-content-between align-items-center w-100">
                     <div>
                         <p class="mb-0">161/2, Kovai Road,</p>
                         <p>Pollachi-2 , Tamilnadu</p>
@@ -474,7 +493,7 @@
                             <span><img class="ml-2" src="assets/images/instagram icon.png"></span>
                         </div>
                     </div>
-                    <button class="btn btn-book-now d-none d-md-block font-weight-medium ml-5" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
+                    <button class="btn btn-book-now font-weight-medium ml-md-5 mt-3 mt-md-0" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
                 </div>
             </div>
         </footer>

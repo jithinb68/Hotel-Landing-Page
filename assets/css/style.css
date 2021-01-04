@@ -10286,7 +10286,7 @@ body {
 .datepicker.datepicker-dropdown,
 .datepicker.datepicker-inline {
   padding: 0 25px;
-  width: 30%;
+  width: 25%;
   max-width: 500px;
   min-width: 250px;
 }
@@ -10300,16 +10300,16 @@ body {
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.prev,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.prev {
   color: #434a54;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   text-align: left;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.datepicker-switch,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.datepicker-switch {
   color: #434a54;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -10317,8 +10317,8 @@ body {
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.next,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.next {
   color: grey;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   text-align: right;
 }
 
@@ -10382,7 +10382,7 @@ body {
   margin: auto;
   vertical-align: middle;
   position: absolute;
-  top: 1px;
+  top: 0px;
   z-index: -1;
   left: 0;
   right: 0;
@@ -10407,7 +10407,7 @@ body {
   margin: auto;
   vertical-align: middle;
   position: absolute;
-  top: 1px;
+  top: 0px;
   z-index: -1;
   left: 0;
   right: 0;

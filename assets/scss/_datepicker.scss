@@ -3,7 +3,7 @@
 .datepicker.datepicker-dropdown,
 .datepicker.datepicker-inline {
 	padding: 0 25px;
-	width: 30%;
+	width: 25%;
 	max-width: 500px;
 	min-width: 250px;
 	.datepicker-days {
@@ -15,21 +15,21 @@
 						padding: .5rem 0;
 						&.prev {
 							color: color(gray);
-							padding-bottom: 1rem;
-							padding-top: 1rem;
+							padding-bottom: 0.5rem;
+							padding-top: 0.5rem;
 							text-align: left;
 						}
 						&.datepicker-switch {
 							color: color(gray);
-							padding-bottom: 1rem;
-							padding-top: 1rem;
+							padding-bottom: 0.5rem;
+							padding-top: 0.5rem;
 							font-size: 1rem;
 							font-weight: 600;
 						}
 						&.next {
 							color:grey;
-							padding-bottom: 1rem;
-							padding-top: 1rem;
+							padding-bottom: 0.5rem;
+							padding-top: 0.5rem;
 							text-align: right;
 						}
 						&.dow {
@@ -74,7 +74,7 @@
 								margin: auto;
 								vertical-align: middle;
 								position: absolute;
-								top: 1px;
+								top: 0px;
 								z-index: -1;
 								left: 0;
 								right: 0;
@@ -95,7 +95,7 @@
 								margin: auto;
 								vertical-align: middle;
 								position: absolute;
-								top: 1px;
+								top: 0px;
 								z-index: -1;
 								left: 0;
 								right: 0;

@@ -61,8 +61,6 @@
                 <div class="item"><img src="assets/images/carousel 2.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 3.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 4.jpg"></div>
-                <div class="item"><img src="assets/images/carousel 5.jpg"></div>
-                <div class="item"><img src="assets/images/carousel 6.jpg"></div>
             </div>
             <div class="introduction">
                 <h1 class="title text-italian text-center">Best Hotel In Pollachi</h1>
@@ -94,6 +92,8 @@
                                 <li><p>2 Guest</p></li>
                                 <li><p>1 Beds</p></li>
                             </ul>
+                            <p>Rate:Rs 3000 + GST / night</p>
+                            <p>Breakfast complimentary</p>
                             <div class="d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex">
                                     <span class="mdi mdi-snowflake"></span>
@@ -124,6 +124,8 @@
                                 <li><p>2 Guest</p></li>
                                 <li><p>1 Beds</p></li>
                             </ul>
+                            <p>Rate:Rs 2499 + GST / night</p>
+                            <p>Breakfast complimentary</p>
                             <div class="d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex">
                                     <span class="mdi mdi-snowflake"></span>
@@ -153,6 +155,8 @@
                                 <li><p>2 Guest</p></li>
                                 <li><p>2 Beds</p></li>
                             </ul>
+                            <p>Rate:Rs 2200 + GST / night</p>
+                            <p>Breakfast complimentary</p>
                             <div class="d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex">
                                     <span class="mdi mdi-snowflake"></span>

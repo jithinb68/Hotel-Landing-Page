@@ -58,11 +58,10 @@
         <div id="home-section" class="hotel-carousel">
             <div id="owl-demo" class="owl-carousel owl-theme full-width">
                 <div class="item"><img src="assets/images/carousel 1.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 5.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 2.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 3.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 4.jpg"></div>
-                <div class="item"><img src="assets/images/carousel 5.jpg"></div>
-                <div class="item"><img src="assets/images/carousel 6.jpg"></div>
             </div>
             <div class="introduction">
                 <h1 class="title text-italian text-center">Best Hotel In Pollachi</h1>
@@ -94,6 +93,8 @@
                                 <li><p>2 Guest</p></li>
                                 <li><p>1 Beds</p></li>
                             </ul>
+                            <p>Rate:Rs 3000 + GST / night</p>
+                            <p>Breakfast complimentary</p>
                             <div class="d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex">
                                     <span class="mdi mdi-snowflake"></span>
@@ -124,6 +125,8 @@
                                 <li><p>2 Guest</p></li>
                                 <li><p>1 Beds</p></li>
                             </ul>
+                            <p>Rate:Rs 2499 + GST / night</p>
+                            <p>Breakfast complimentary</p>
                             <div class="d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex">
                                     <span class="mdi mdi-snowflake"></span>
@@ -153,6 +156,8 @@
                                 <li><p>2 Guest</p></li>
                                 <li><p>2 Beds</p></li>
                             </ul>
+                            <p>Rate:Rs 2200 + GST / night</p>
+                            <p>Breakfast complimentary</p>
                             <div class="d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex">
                                     <span class="mdi mdi-snowflake"></span>
@@ -354,11 +359,12 @@
                 </div>
             </div> 
             <div class="text-center about-desc">
-                    <h4>Founded in 2018, Hotel Madhava Inn aspires to satisfy our guests by guaranteeing
+                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/CXLh3vBAblY" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div><h4>Founded in 2018, Hotel Madhava Inn aspires to satisfy our guests by guaranteeing
                         warmest hospitality and outstanding facilities. We provide everything to make your
                         business trips and holiday stay memorable. Located in the heart of the city, Madhava
                         Inn is considered as one of the best places to stay since the hospitals, shopping areas
-                        and travel facilities are within easy reach.</h4>
+                        and travel facilities are within easy reach.</h4></div>
             </div>
         </div>
         <!-- Modal for Book-now button-->
@@ -482,10 +488,11 @@
         </div>
         <footer>
             <div class="footer">
-                <div class="d-md-flex justify-content-between align-items-center w-100">
-                    <div>
+                <div class="row">
+                    <div class="col-12 col-md-3">
                         <p class="mb-0">161/2, Kovai Road,</p>
-                        <p>Pollachi-2 , Tamilnadu</p>
+                        <p class="mb-0">Pollachi-2 , Tamilnadu</p>
+                        <p>Created By <a href="https://www.asthraxmedia.com">AsthraX media</a></p>
                         <div class="d-flex social-media-cons">
                             <span><img src="assets/images/twitter icon.png"></span>
                             <span><img class="ml-2" src="assets/images/trip adviser icon.png"></span>
@@ -493,7 +500,12 @@
                             <span><img class="ml-2" src="assets/images/instagram icon.png"></span>
                         </div>
                     </div>
-                    <button class="btn btn-book-now font-weight-medium ml-md-5 mt-3 mt-md-0" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
+                    <div class="col-12 col-md-9 col-lg-6 mt-4 mt-lg-0 mapouter"><div class="gmap_canvas"><iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=%20hotel%20madhava%20inn%2Cpollachi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org">fmovies</a></div><style>.mapouter{position:relative;text-align:right;height:200px;width:100%px;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%px;}</style></div>
+                    <div class="col-12 col-md-3 mt-4 mt-lg-0">
+                        <div class="d-flex justify-content-lg-end align-items-center h-100">
+                            <button class="btn btn-book-now font-weight-medium" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>

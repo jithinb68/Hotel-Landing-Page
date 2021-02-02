@@ -58,6 +58,7 @@
         <div id="home-section" class="hotel-carousel">
             <div id="owl-demo" class="owl-carousel owl-theme full-width">
                 <div class="item"><img src="assets/images/carousel 1.jpg"></div>
+                <div class="item"><img src="assets/images/carousel 5.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 2.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 3.jpg"></div>
                 <div class="item"><img src="assets/images/carousel 4.jpg"></div>
@@ -358,11 +359,12 @@
                 </div>
             </div> 
             <div class="text-center about-desc">
-                    <h4>Founded in 2018, Hotel Madhava Inn aspires to satisfy our guests by guaranteeing
+                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/CXLh3vBAblY" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div><h4>Founded in 2018, Hotel Madhava Inn aspires to satisfy our guests by guaranteeing
                         warmest hospitality and outstanding facilities. We provide everything to make your
                         business trips and holiday stay memorable. Located in the heart of the city, Madhava
                         Inn is considered as one of the best places to stay since the hospitals, shopping areas
-                        and travel facilities are within easy reach.</h4>
+                        and travel facilities are within easy reach.</h4></div>
             </div>
         </div>
         <!-- Modal for Book-now button-->
